@@ -1,0 +1,135 @@
+body, html{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.intro-text_color,.question-box_color,.call-text_color,.number_color{
+    color: #0d67a3ed;
+}
+
+header{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+.question-box_font,.number_font{
+    font-family: PT Serif, serif;
+    font-size: 1.5rem;
+}
+
+.intro-text_font{
+    font-family: PT Serif, serif;
+    font-size: 1.4rem;
+}
+
+.intro-text{
+    text-align: start;
+}
+
+.call-text_font{
+    font-size: 1.3rem;
+    text-decoration: underline;
+}
+
+.header-lvl1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.logo__picture{
+    width: 225px;
+    height: 100px
+}
+
+.question-box{
+    border: 2px solid #0d67a3ed;
+}
+
+.question-box_font{
+    padding: 10px;
+    text-align: center;
+}
+
+.phone-container{
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+}
+
+.phone-container__number{
+    text-align: center;
+}
+
+.header-lvl2_color{
+    background-color: #398ec7e0;
+}
+
+.header-lvl2{
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    position: sticky;
+    top: 0;
+}
+
+.header-lvl2__ul-nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.header-lvl2__ul-nav_style{
+    list-style-type: none;
+}
+
+.nav__link{
+    color: white;
+}
+
+.nav__link_font{
+    font-family: PT Serif, serif;
+    font-size: 1.3rem;
+}
+
+.main-container{
+    display: flex;
+    margin: 2.2rem 8rem 1rem 8rem;
+}
+
+.topic-picture-container{
+    display: flex;
+    /*padding-right: 4rem;*/
+}
+
+section{
+    font-family: PT Serif, serif;
+    font-size: 1.8rem;
+    text-align: justify;
+}
+
+span{
+    font-family: PT Serif, serif;
+    font-weight: bold;
+}
+
+.topic-place{
+    padding-right: 7rem;
+}
+
+body{
+    /*background-color: beige;*/
+}
+
+footer{
+    background-color: #398ec7e0;
+    bottom: 0;
+}
